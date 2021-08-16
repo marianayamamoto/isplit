@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40E20AB926CACC7D00D8243C /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20AB826CACC7D00D8243C /* CurrencyTextField.swift */; };
+		40E20ABC26CACE2C00D8243C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20ABB26CACE2C00D8243C /* UIApplication+Extension.swift */; };
 		40F6EC5B26C5A9CD00850C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F6EC5A26C5A9CD00850C92 /* AppDelegate.swift */; };
 		40F6EC5D26C5A9CD00850C92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F6EC5C26C5A9CD00850C92 /* SceneDelegate.swift */; };
 		40F6EC5F26C5A9CD00850C92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F6EC5E26C5A9CD00850C92 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40E20AB826CACC7D00D8243C /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		40E20ABB26CACE2C00D8243C /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		40F6EC5726C5A9CD00850C92 /* iSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F6EC5A26C5A9CD00850C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40F6EC5C26C5A9CD00850C92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		40F6EC5926C5A9CD00850C92 /* iSplit */ = {
 			isa = PBXGroup;
 			children = (
+				40E20AB826CACC7D00D8243C /* CurrencyTextField.swift */,
 				40F6EC5A26C5A9CD00850C92 /* AppDelegate.swift */,
 				40F6EC5C26C5A9CD00850C92 /* SceneDelegate.swift */,
 				40F6EC5E26C5A9CD00850C92 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				40F6EC6526C5A9D400850C92 /* LaunchScreen.storyboard */,
 				40F6EC6826C5A9D400850C92 /* Info.plist */,
 				40F6EC6226C5A9D400850C92 /* Preview Content */,
+				40E20ABB26CACE2C00D8243C /* UIApplication+Extension.swift */,
 			);
 			path = iSplit;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			files = (
 				40F6EC5B26C5A9CD00850C92 /* AppDelegate.swift in Sources */,
 				40F6EC5D26C5A9CD00850C92 /* SceneDelegate.swift in Sources */,
+				40E20AB926CACC7D00D8243C /* CurrencyTextField.swift in Sources */,
+				40E20ABC26CACE2C00D8243C /* UIApplication+Extension.swift in Sources */,
 				40F6EC5F26C5A9CD00850C92 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
