@@ -1,0 +1,2 @@
+# isplit
+App to split a check and calculate tip
