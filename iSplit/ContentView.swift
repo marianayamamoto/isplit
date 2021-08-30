@@ -158,6 +158,7 @@ struct ContentView: View {
                     Text("Value: $\(orderPerPerson, specifier: "%.2f")")
                     Text("Tip: $\(roundedTipValue, specifier: "%.2f")")
                     Text("Total: $\(totalPerPerson, specifier: "%.2f")")
+                        .foregroundColor(tipPercentageIndex == 0 ? .red : .blue)
                 }
             }.navigationBarTitle("iSplit the Check")
         }
